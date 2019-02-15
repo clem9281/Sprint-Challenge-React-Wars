@@ -18,4 +18,4 @@
 
 1.  Describe props.
 
-    Props are properties passed from a parent component to a child component. They are usually data from the state, or functions from the parent. Props are immutable. Props are accessed from the child component, as a parameter of the constructor.
+    Props are properties passed from a parent component to a child component. They are usually data from the state, or functions from the parent. Props are immutable. Props are accessed from the child component as a parameter of the constructor.
