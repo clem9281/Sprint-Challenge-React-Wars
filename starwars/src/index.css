@@ -133,6 +133,8 @@ body {
   font-family: sans-serif;
   background-image: url("./sw-bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 * {
@@ -153,6 +155,7 @@ h2 {
   font-weight: bold;
 }
 p,
-li {
+li,
+button {
   font-size: 1.6rem;
 }

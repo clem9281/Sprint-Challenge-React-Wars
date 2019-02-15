@@ -10,3 +10,27 @@
   margin: 20px auto;
   border-radius: 10px;
 }
+.pagination {
+  margin: 0 auto 20px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination button {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.pagination button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  transform: scale(1.2);
+}
+.pagination button:disabled {
+  visibility: hidden;
+}

@@ -2,7 +2,6 @@ import React from "react";
 import "./StarWars.css";
 
 const ListItem = props => {
-  console.log(props);
   return (
     <li className="character-item">
       <h2>{props.charData.name}</h2>
