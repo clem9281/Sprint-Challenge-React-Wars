@@ -1,0 +1,12 @@
+.character-list {
+  color: white;
+}
+
+.character-item {
+  list-style: none;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
