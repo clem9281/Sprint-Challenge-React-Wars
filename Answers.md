@@ -10,7 +10,7 @@
 
 1.  Briefly describe some of the differences between a Class/Stateful component and a Functional/Presentational component.
 
-    A class/stateful component has state, while a functional component does not. A functional component is primarily visual. It is still a reusable component, it just does not have it's own state. The state of the application is stored in a class component, and then passed to a functional component through props.
+    A class/stateful component has state, while a functional component does not. A functional component is primarily visual. It is still a reusable component, it just does not have it's own state. The state of the application is stored in a class component, and then passed to a functional component through props. Class components also have access to lifecycle methods like componentDidMount.
 
 1.  Describe state.
 
