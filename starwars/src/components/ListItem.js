@@ -2,10 +2,11 @@ import React from "react";
 import "./StarWars.css";
 
 const ListItem = props => {
+  const { name, birth_year } = props.charData;
   return (
     <li className="character-item">
-      <h2>{props.charData.name}</h2>
-      <p>Born: {props.charData.birth_year}</p>
+      <h2>{name}</h2>
+      <p>Born: {birth_year}</p>
     </li>
   );
 };

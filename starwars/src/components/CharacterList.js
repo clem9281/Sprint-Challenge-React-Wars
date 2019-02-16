@@ -2,28 +2,28 @@ import React from "react";
 import ListItem from "./ListItem";
 // import "./StarWars.css";
 
-const CharacterList = props => {
+const CharacterList = ({ data, pagination, previous, next }) => {
   return (
     <div>
       <ul className="character-list">
-        {props.data.map(element => (
+        {data.map(element => (
           <ListItem charData={element} key={element.created} />
         ))}
       </ul>
       <div className="pagination">
         <button
           onClick={() => {
-            props.pagination(props.previous);
+            pagination(previous);
           }}
-          disabled={!props.previous}
+          disabled={!previous}
         >
           Previous
         </button>
         <button
           onClick={() => {
-            props.pagination(props.next);
+            pagination(next);
           }}
-          disabled={!props.next}
+          disabled={!next}
         >
           Next
         </button>
